@@ -3,7 +3,7 @@
 # Justin<lijt@kuxun.com>
 # 2015-04-01 (April Fool's Day)
 '''
-USAGE
+# USAGE
 
 # import module
 from pylogger import logger
@@ -33,6 +33,7 @@ from logging.handlers import RotatingFileHandler
 
 class PyLogger(object):
     '''
+    an esay-to-use logging wrapper
     '''
     def __init__(self):
         self.logger = None
