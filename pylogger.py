@@ -1,11 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#Author: Lijingtian (lijt@kuxun.com)
+# Justin<lijt@kuxun.com>
+# 2015-04-01 (April Fool's Day)
 '''
-LOGGER USAGE:
+USAGE
 
-from logger_service import logger
+# import module
+from pylogger import logger
 
+logger.info('hello pylogger')
+
+# modify logger configures any time any times you want
+logger.config(log_dir='another_log', log_file='another_run.log', rotate_max_byte=1024*1024*512, rotate_backup_count=20)
+
+logger.debug('logger config has been modified')
+logger.info('I'm a new log')
+
+# all log types
 logger.debug('test debug')
 logger.info('test info')
 logger.warn('test warn')
@@ -33,7 +44,7 @@ class PyLogger(object):
         self.logger = logging.getLogger()
 
     def __str__(self):
-        s = ''
+        s = 'PyLogger config reloaded\n'
         s += 'log file path: %s\n' % self.log_file_path
         s += 'rotate config: maxbyte %s, backupcount %s\n' % (self.rotate_max_byte, self.rotate_backup_count)
         return s
