@@ -1,0 +1,8 @@
+language: python
+python:
+    - "2.7"
+install: "pip install -r requirements.txt"
+script: 
+    nosetests -v --with-coverage --cover-package=pylogger --with-doctest --cover-erase --exe
+after_success:
+    - coveralls
