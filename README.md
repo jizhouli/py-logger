@@ -4,9 +4,29 @@ Recently, I want to find an easy-to-use logging wrapper in Python for my project
 So I write this one.
 
 ### Usage
+    # import module
+    from pylogger import logger
+    
+    logger.info('hello pylogger')
+    
+    # modify logger configures any time any times you want
+    logger.config(log_dir='another_log', log_file='another_run.log', rotate_max_byte=1024*1024*512, rotate_backup_count=20)
+    
+    logger.debug('logger config has been modified')
+    logger.info('I'm a new log')
 
-### TODO
+    # all log types
+    logger.debug('test debug')
+    logger.info('test info')
+    logger.warn('test warn')
+    logger.error('test error')
+    logger.critical('test critical')
+
+### Todo
 - [x] add modify config functionality
 - [ ] add unittest code
 - [ ] pubish to PyPI
 - [ ] install some CI badges
+
+----
+*powered by Mou*
