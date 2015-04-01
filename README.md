@@ -1,4 +1,6 @@
 # py-logger
+[![Build Status](https://travis-ci.org/jizhouli/py-logger.svg)](https://travis-ci.org/jizhouli/py-logger)
+[![Coverage Status](https://coveralls.io/repos/jizhouli/py-logger/badge.svg)](https://coveralls.io/r/jizhouli/py-logger)
 
 Recently, I want to find an easy-to-use logging wrapper in Python for my project, but none of them is easy enough.
 So I write this one.
