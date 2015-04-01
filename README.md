@@ -24,9 +24,21 @@ So I write this one.
 
 ### Todo
 - [x] add modify config functionality
-- [ ] add unittest code
+- [x] add unittest(nose with coverage plugin)
 - [ ] pubish to PyPI
 - [ ] install some CI badges
+
+### Unittest
+    # unittest
+    nosetests
+    # unittest with coverage plugin
+    nosetests -v --with-coverage --cover-package=pylogger --with-doctest --cover-erase --exe
+![nose](image/nose.png)
+
+    # measuring code coverage on with coverage cmd
+    coverage run main.py
+    coverage report -m
+![coverage](image/coverage.png)
 
 ----
 *powered by Mou*
