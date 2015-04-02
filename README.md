@@ -1,5 +1,5 @@
 # py-logger
-[![Downloads](https://pypip.in/version/i-pylogger/badge.svg)](https://pypi.python.org/pypi/i-pylogger/)
+[![PyPI version](https://badge.fury.io/py/i-pylogger.svg)](http://badge.fury.io/py/i-pylogger)
 [![Code Health](https://landscape.io/github/jizhouli/py-logger/master/landscape.svg?style=flat)](https://landscape.io/github/jizhouli/py-logger/master)
 [![Build Status](https://travis-ci.org/jizhouli/py-logger.svg)](https://travis-ci.org/jizhouli/py-logger)
 [![Coverage Status](https://coveralls.io/repos/jizhouli/py-logger/badge.svg)](https://coveralls.io/r/jizhouli/py-logger)
