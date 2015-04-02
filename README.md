@@ -35,6 +35,7 @@ So I write this one.
 - [x] add unittest(nose with coverage plugin)
 - [x] install some CI badges(travis CI, coveralls)
 - [x] pubish to PyPI
+- [x] add PyPI host documentation
 
 ### Unittest
     # unittest
