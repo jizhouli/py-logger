@@ -27,8 +27,8 @@ So I write this one.
 ### Todo
 - [x] add modify config functionality
 - [x] add unittest(nose with coverage plugin)
+- [x] install some CI badges(travis CI, coveralls)
 - [ ] pubish to PyPI
-- [ ] install some CI badges
 
 ### Unittest
     # unittest
