@@ -1,4 +1,5 @@
 # py-logger
+[![Code Health](https://landscape.io/github/jizhouli/py-logger/master/landscape.svg?style=flat)](https://landscape.io/github/jizhouli/py-logger/master)
 [![Build Status](https://travis-ci.org/jizhouli/py-logger.svg)](https://travis-ci.org/jizhouli/py-logger)
 [![Coverage Status](https://coveralls.io/repos/jizhouli/py-logger/badge.svg)](https://coveralls.io/r/jizhouli/py-logger)
 
