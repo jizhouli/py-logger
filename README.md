@@ -13,7 +13,7 @@ So I write this one.
 
 ### Usage
     # import module
-    from pylogger import logger
+    from pylogger.pylogger import logger
     
     logger.info('hello pylogger')
     
