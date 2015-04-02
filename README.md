@@ -1,10 +1,15 @@
 # py-logger
+[![Downloads](https://pypip.in/version/i-pylogger/badge.svg)](https://pypi.python.org/pypi/i-pylogger/)
 [![Code Health](https://landscape.io/github/jizhouli/py-logger/master/landscape.svg?style=flat)](https://landscape.io/github/jizhouli/py-logger/master)
 [![Build Status](https://travis-ci.org/jizhouli/py-logger.svg)](https://travis-ci.org/jizhouli/py-logger)
 [![Coverage Status](https://coveralls.io/repos/jizhouli/py-logger/badge.svg)](https://coveralls.io/r/jizhouli/py-logger)
 
 Recently, I want to find an easy-to-use logging wrapper in Python for my project, but none of them is easy enough.
 So I write this one.
+
+### Install
+
+	sudo pip install i-pylogger
 
 ### Usage
     # import module
@@ -29,7 +34,7 @@ So I write this one.
 - [x] add modify config functionality
 - [x] add unittest(nose with coverage plugin)
 - [x] install some CI badges(travis CI, coveralls)
-- [ ] pubish to PyPI
+- [x] pubish to PyPI
 
 ### Unittest
     # unittest
